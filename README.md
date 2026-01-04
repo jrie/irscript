@@ -1,5 +1,5 @@
-[# irscript
-[Input Remapper](https://github.com/sezanzeb/input-remapper) text output macro generation based on variable inputs and keyboard layouts
+# irscript
+Helper script for [Input Remapper](https://github.com/sezanzeb/input-remapper) to generate macros based on variable text/string inputs and keyboard layouts
 
 ## Short
 irscript is a helper script to transcode and translate text inputs to Input Remapper macros.
