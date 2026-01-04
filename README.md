@@ -1,5 +1,5 @@
 # irscript
-Input Remapper text output macro generation based on variable inputs and keyboard layouts
+[Input Remapper](https://github.com/sezanzeb/input-remapper) text output macro generation based on variable inputs and keyboard layouts
 
 ## Short
 Input Remapper helper script to transcode and translate text inputs to Input Remapper macros.
@@ -120,5 +120,11 @@ print('MACRO_TEXT')
 print(MACRO_TEXT)
 ```
 
+### Thanks and cudos
 
+"W-L" for his initially idea to do it with a translation table
+See the original issue and source: https://github.com/sezanzeb/input-remapper/issues/173
+
+"sezanzeb" for his beautifull program "Input Remapper"
+https://github.com/sezanzeb/input-remapper
 
