@@ -1,8 +1,9 @@
-# irscript
+[# irscript
 [Input Remapper](https://github.com/sezanzeb/input-remapper) text output macro generation based on variable inputs and keyboard layouts
 
 ## Short
-Input Remapper helper script to transcode and translate text inputs to Input Remapper macros.
+irscript is a helper script to transcode and translate text inputs to Input Remapper macros.
+Input Remapper itself is a program to modify/program/remap keyboard keys and input devices.
 
 ## Translation tables
 Current translation tables to translate the inputs, by keyboard layout, like `german_de` or `english_us` (former needs work)
@@ -125,6 +126,4 @@ print(MACRO_TEXT)
 "W-L" for his initially idea to do it with a translation table
 See the original issue and source: https://github.com/sezanzeb/input-remapper/issues/173
 
-"sezanzeb" for his beautifull program "Input Remapper"
-https://github.com/sezanzeb/input-remapper
-
+"sezanzeb" for his beautiful program "Input Remapper": https://github.com/sezanzeb/input-remapper
