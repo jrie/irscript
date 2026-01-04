@@ -1,9 +1,9 @@
 # irscript
-Helper script for [Input Remapper](https://github.com/sezanzeb/input-remapper) to generate macros based on variable text/string inputs and keyboard layouts
+Python helper script to generate macros based on variable text/string inputs and keyboard layouts for usage with [Input Remapper](https://github.com/sezanzeb/input-remapper).
 
 ## Short
-irscript is a helper script to transcode and translate text inputs to Input Remapper macros.
-Input Remapper itself is a program to modify/program/remap keyboard keys and input devices.
+irscript is a helper script to transcode and translate text inputs to Input Remapper macros. This allows to automate "text outputs by key presses".
+Input Remapper itself is a program to modify/program/remap keyboard keys and other input devices.
 
 ## Translation tables
 Current translation tables to translate the inputs, by keyboard layout, like `german_de` or `english_us` (former needs work)
@@ -121,9 +121,13 @@ print('MACRO_TEXT')
 print(MACRO_TEXT)
 ```
 
-### Thanks and cudos
+## Example of a generated macro
+```
+key(f).wait(1).key(o).wait(1).key(r).wait(1).key(space).wait(1).key(f).wait(1).key(i).wait(1).key(l).wait(1).key(e).wait(1).key(n).wait(1).key(a).wait(1).key(m).wait(1).key(e).wait(1).key(space).wait(1).key(i).wait(1).key(n).wait(1).key(space).wait(1).modify(Shift_R, key(KEY_4)).wait(1).key(f).wait(1).key(i).wait(1).key(l).wait(1).key(e).wait(1).modify(Shift_R, key(L)).wait(1).key(i).wait(1).key(s).wait(1).key(t).wait(1).modify(Shift_R, key(comma)).wait(1).key(space).wait(1).key(d).wait(1).key(o).wait(1).key(Return).wait(1).key(Tab).wait(1).key(e).wait(1).key(c).wait(1).key(h).wait(1).key(o).wait(1).key(space).wait(1).modify(Shift_R, key(KEY_2)).wait(1).modify(Shift_R, key(KEY_4)).wait(1).key(f).wait(1).key(i).wait(1).key(l).wait(1).key(e).wait(1).key(n).wait(1).key(a).wait(1).key(m).wait(1).key(e).wait(1).modify(Shift_R, key(KEY_2)).wait(1).key(Return).wait(1).key(BackSpace).wait(1).key(d).wait(1).key(o).wait(1).key(n).wait(1).key(e).wait(1).key(Return).wait(1)
+```
 
-"W-L" for his initially idea to do it with a translation table
+### Thanks and cudos
+"W-L" for his initial idea to do conversion with a translation table.
 See the original issue and source: https://github.com/sezanzeb/input-remapper/issues/173
 
 "sezanzeb" for his beautiful program "Input Remapper": https://github.com/sezanzeb/input-remapper
